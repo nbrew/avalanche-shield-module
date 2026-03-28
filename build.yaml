@@ -18,12 +18,12 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [ "nice_nano_v2" ]
+board: [ "nrfmicro/nrf52840/zmk" ]
 shield: [ "avalanche_left", "avalanche_right"]
 include:
-  - board:  nice_nano_v2
+  - board:  nrfmicro/nrf52840/zmk
     shield: avalanche_left
-  - board: nice_nano_v2
+  - board: nrfmicro/nrf52840/zmk
     shield: avalanche_right
-  - board: nice_nano_v2
+  - board: nrfmicro/nrf52840/zmk
     shield: settings_reset
